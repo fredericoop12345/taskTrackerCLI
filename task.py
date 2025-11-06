@@ -86,13 +86,13 @@ def main():
 		deleteTask(int(sys.argv[2]))
 	elif command == "mark-done":
 		mark_status(int(sys.argv[2]), "done")
-	elif command == "mark-progress":
+	elif command == "mark-in-progress":
 		mark_status(int(sys.argv[2]), "in-progress")
-	elif command == "list-done":
+	elif command == "list done":
 		listTasks("done")
-	elif command == "list-todo":
+	elif command == "list todo":
 		listTasks("todo")
-	elif command == "list-progress":
+	elif command == "list in-progress":
 		listTasks("in-progress")
 	else:
 		print("Unknown command.")
