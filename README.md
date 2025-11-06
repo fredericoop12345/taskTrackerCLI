@@ -27,7 +27,7 @@ task-cli list in-progress
 
 Now, before running the commands above, type the following into your terminal to register task-cli as a command:
 vi ~/.bash_profile
-After typing the above line, add alias "task-cli" = python3 task.py 
+After typing the above line, add alias task-cli = "python3 task.py" 
 Save the file by pressing escape symbol. type the ':' symbol followed by wq; Press on enter.
 Type source ~/.bash_profile before running the command.
 
