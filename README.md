@@ -1,5 +1,5 @@
 # taskTrackerCLI
-This project practices handling CLI in files and writing and reading files.
+ This project practices handling CLI in files and writing and reading files. It was done as part of this course: https://roadmap.sh/projects/task-tracker
 
 The folloowing is the list of commands to use to run the program on your pc. Before running the program, be sure to check the requirements after this list of commands the program follows.
 
